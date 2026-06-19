@@ -1,0 +1,23 @@
+algorithm: Support Vector Machine Regression
+best_parameters:
+  svm__C: 100
+  svm__degree: 2
+  svm__gamma: 0.1
+  svm__kernel: poly
+features:
+- Country
+- Year
+- Tree_Cover_Loss_percent
+- CO2_Emission_mt
+- Rainfall_mm
+- Population
+- GDP_Billion_USD
+- Agriculture_Land_Percent
+- Deforestation_Policy_Strictness
+- Corruption_Index
+- International_Aid_Million_USD
+- Illegal_Lumbering_Incidents
+- Protected_Areas_Percent
+project: Deforestation Issue Analysis Using Support Vector Machine
+target: Forest_Loss_Area_km2
+train_test_split: 80-20

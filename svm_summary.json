@@ -1,0 +1,64 @@
+{
+    "project": "Deforestation Issue Analysis Using Support Vector Machine",
+    "target_variable": "Forest_Loss_Area_km2",
+    "dataset_shape": [
+        100,
+        14
+    ],
+    "best_parameters": {
+        "svm__C": 100,
+        "svm__degree": 2,
+        "svm__gamma": 0.1,
+        "svm__kernel": "poly"
+    },
+    "best_cv_score": -0.0280124111074181,
+    "cross_validation_mean_r2": -0.06993855203147854,
+    "best_test_metrics": {
+        "MAE": 1011.8809634075951,
+        "MSE": 1434054.776601782,
+        "RMSE": 1197.5202614577267,
+        "R2_Score": -0.3411968265481642
+    },
+    "top_features": [
+        {
+            "Feature": "Corruption_Index",
+            "Importance": 0.046413617406449004
+        },
+        {
+            "Feature": "GDP_Billion_USD",
+            "Importance": 0.04118404873185742
+        },
+        {
+            "Feature": "CO2_Emission_mt",
+            "Importance": 0.03644800968915498
+        },
+        {
+            "Feature": "International_Aid_Million_USD",
+            "Importance": 0.0144287595432127
+        },
+        {
+            "Feature": "Deforestation_Policy_Strictness",
+            "Importance": 0.013308280052663357
+        },
+        {
+            "Feature": "Illegal_Lumbering_Incidents",
+            "Importance": 0.012272073702550412
+        },
+        {
+            "Feature": "Rainfall_mm",
+            "Importance": -0.00293773236361945
+        },
+        {
+            "Feature": "Country",
+            "Importance": -0.005770638474914136
+        },
+        {
+            "Feature": "Population",
+            "Importance": -0.006966608816153142
+        },
+        {
+            "Feature": "Year",
+            "Importance": -0.011517276225519702
+        }
+    ]
+}

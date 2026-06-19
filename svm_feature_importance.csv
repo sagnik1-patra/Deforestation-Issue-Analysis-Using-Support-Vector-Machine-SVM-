@@ -1,0 +1,14 @@
+Feature,Importance
+Corruption_Index,0.046413617406449004
+GDP_Billion_USD,0.04118404873185742
+CO2_Emission_mt,0.03644800968915498
+International_Aid_Million_USD,0.0144287595432127
+Deforestation_Policy_Strictness,0.013308280052663357
+Illegal_Lumbering_Incidents,0.012272073702550412
+Rainfall_mm,-0.00293773236361945
+Country,-0.005770638474914136
+Population,-0.006966608816153142
+Year,-0.011517276225519702
+Protected_Areas_Percent,-0.012655665260974457
+Agriculture_Land_Percent,-0.02656738058820942
+Tree_Cover_Loss_percent,-0.04044516459646791
