@@ -1,6 +1,6 @@
 # 🌳 Deforestation Issue Analysis Using Support Vector Machine (SVM)
 
-## 🧠 Predicting Deforestation Levels Using Machine Learning and Environmental Indicators
+## 🧠 Predicting Deforestation Levels Using Machine Learning and Environmental Indicators 
 
 ---
 
